@@ -10,5 +10,16 @@ class CreateDocuments < ActiveRecord::Migration[5.0]
 
       t.timestamps
     end
+
+    Document.create(entity: 'SIPF', title: 'titre1', slug: 'mon-slug', date: '2016-01-01-010123', categories: 'categorie 1', tags: 'tag 1')
+    Document.create(entity: 'SIPF', title: 'titre1', slug: 'mon-slug', date: '2016-01-01-010123', categories: 'categorie 1', tags: 'tag 1')
+    Document.create(entity: 'SIPF', title: 'titre1', slug: 'mon-slug', date: '2016-01-01-010123', categories: 'categorie 1', tags: 'tag 1')
+    Document.create(entity: 'SIPF', title: 'titre1', slug: 'mon-slug', date: '2016-01-01-010123', categories: 'categorie 1', tags: 'tag 1')
+    Document.create(entity: 'SIPF', title: 'titre1', slug: 'mon-slug', date: '2016-01-01-010123', categories: 'categorie 1', tags: 'tag 1')
+    Document.create(entity: 'SIPF', title: 'titre1', slug: 'mon-slug', date: '2016-01-01-010123', categories: 'categorie 1', tags: 'tag 1')
+    Document.create(entity: 'SIPF', title: 'titre1', slug: 'mon-slug', date: '2016-01-01-010123', categories: 'categorie 1', tags: 'tag 1')
+    Document.create(entity: 'SIPF', title: 'titre1', slug: 'mon-slug', date: '2016-01-01-010123', categories: 'categorie 1', tags: 'tag 1')
+    Document.create(entity: 'SIPF', title: 'titre1', slug: 'mon-slug', date: '2016-01-01-010123', categories: 'categorie 1', tags: 'tag 1')
+    Document.create(entity: 'SIPF', title: 'titre1', slug: 'mon-slug', date: '2016-01-01-010123', categories: 'categorie 1', tags: 'tag 1')
   end
 end
