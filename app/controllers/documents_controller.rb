@@ -46,6 +46,6 @@ class DocumentsController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def document_params
-      params.require(:document).permit(:entity, :title, :slug, :date, :categories, :tags)
+      params.require(:document).permit(:entity, :title, :slug, :content, :date, :categories, :tags)
     end
 end
